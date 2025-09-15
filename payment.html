@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="payment.css">
 </head>
 <body>
+    <div id="main">
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo">English Learning Hub</a>
-                <a href="plans.html" class="back-btn">
+                <a class="logo">English Learning Hub</a>
+                <a  id="back-btn" class="back-btn">
                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="m12 19-7-7 7-7"/>
                         <path d="M19 12H5"/>
@@ -163,7 +164,14 @@
       <div class="notification" id="notifyBox">
     <p> Subscription to the plan has been completed</p>
     <div class="progress-bar" id="progress"></div>
-  </div>
+ </div></div>
+   
+<div class="loading-wave" id="loading-wave">
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+</div>
 
     <script src="payment.js">
 
