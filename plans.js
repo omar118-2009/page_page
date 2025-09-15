@@ -17,7 +17,7 @@ PayBtn.onclick=function(){
   loader.style.width='300px'
   loader.style.height='100px'
   loader.style.top='300px'
-  loader.style.left='530px'
+  loader.style.left='550px'
   loader.style.justifyContent='center'
  loader.style.alignItems = 'center';
 
@@ -31,6 +31,7 @@ PayBtn.onclick=function(){
 }
 
   
+
 
 
 
